@@ -1,0 +1,19 @@
+/* Presentation */
+
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ul{
+  background:#ccc;
+  padding: 3em;
+}
+
+.image img{
+ // border: 3px solid red;
+  display: none;
+}
+
+.hot{background: yellow;
+}

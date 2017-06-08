@@ -1,0 +1,21 @@
+/* Presentation */
+/* line 3, /Applications/p4-weather-app/css/style.scss */
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/* line 8, /Applications/p4-weather-app/css/style.scss */
+ul {
+  background: #ccc;
+  padding: 3em; }
+
+/* line 13, /Applications/p4-weather-app/css/style.scss */
+.image img {
+  display: none; }
+
+/* line 18, /Applications/p4-weather-app/css/style.scss */
+.hot {
+  background: yellow; }
+
+/*# sourceMappingURL=style.css.map */
