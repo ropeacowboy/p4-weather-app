@@ -1,1 +1,1 @@
-// jQuerey plugin
+// jQuery Plugin
