@@ -10,18 +10,23 @@ body{
     background: linear-gradient(to bottom, #EC6EAD, #3494E6); 
 
 }
+body{
+    color:white;
+}
 .weather {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 ul{
-  background-color:#c0ffee;
+  //background-color:#c0ffee;
   padding: 3em;
 }
 
 li{
     display: inline;
+    padding: .5em;
+    font-family:cursive;
 }
 
 .image img{
@@ -36,6 +41,11 @@ section ul{
     text-decoration:none;
 }
 .weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.area {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }

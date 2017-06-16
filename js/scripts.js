@@ -28,6 +28,7 @@ $.simpleWeather({
         $('.temp').text(weather.temp + '  F');
         $('.city').text(weather.city);
         $('.region').text(weather.region);
+         $('h1').text(weather.currently);
         $('img').attr('src', weather.image);
 
     },

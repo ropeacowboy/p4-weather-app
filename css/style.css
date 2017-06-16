@@ -1,58 +1,109 @@
 /* Presentation */
 @import url(/style.css);
 /* line 7, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+
+h1{
+    font-family:fantasy;
+}
 body {
   background: #3494E6;
   background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);
   background: linear-gradient(to bottom, #EC6EAD, #3494E6); }
 
-/* line 13, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+
 .weather {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-/* line 18, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+
 ul {
-  background-color: #c0ffee;
+ 
   padding: 3em; }
 
-/* line 23, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
-li {
-  display: inline; }
 
-/* line 27, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+
+li{
+    display: inline;
+    padding: 2em;
+    font-family:cursive;
+}
+
+/* line 30, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
 .image img {
   display: inline; }
 
-/* line 34, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+/* line 37, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
 section ul {
   list-style-type: none;
   text-decoration: none; }
 
-/* line 38, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
-.weather {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
 
-/* line 44, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
 ul {
   border: 2px solid #c0ffee;
   padding: 3em; }
 
-/* line 49, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
+
 .image img {
   display: inline; }
 
-/* line 53, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
-.hot {
-  background: yellow; }
 
-/* line 57, C:/Users/hatch/Desktop/p4-weather-app/css/style.scss */
 section ul, li {
   list-style-type: none;
   text-decoration: none;
   display: inline; }
+body{
+    background: #3494E6;  
+    background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);  
+    background: linear-gradient(to bottom, #EC6EAD, #3494E6); 
+
+}
+
+
+
+
+li{
+    display: inline;
+}
+
+.image img{
+ // border: 3px solid red;
+  display: inline;
+}
+
+
+
+section ul{
+    list-style-type:none;
+    text-decoration:none;
+}
+
+
+ul {
+  border: 2px solid #c0ffee;
+  padding: 3em; }
+
+
+.image img {
+  display: inline; }
+
+
+
+
+
+section ul, li {
+  list-style-type: none;
+  text-decoration: none;
+    display: inline;
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
+.city {
+    font-size: 30px;
+}
+
+.region{
+    font-size:30px;
+}
