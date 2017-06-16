@@ -1,22 +1,63 @@
 /* Presentation */
 
 
-//@import 
-    
+@import "/style.css";
+
+
+body{
+    background: #3494E6;  
+    background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);  
+    background: linear-gradient(to bottom, #EC6EAD, #3494E6); 
+
+}
 .weather {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 ul{
-  background:#ccc;
+  background-color:#c0ffee;
   padding: 3em;
+}
+
+li{
+    display: inline;
 }
 
 .image img{
  // border: 3px solid red;
-  display: none;
+  display: inline;
 }
 
-.hot{background: yellow;
+
+
+section ul{
+    list-style-type:none;
+    text-decoration:none;
 }
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+
+ul {
+  border: 2px solid #c0ffee;
+  padding: 3em; }
+
+
+.image img {
+  display: inline; }
+
+
+.hot {
+  background: yellow; }
+
+
+section ul, li {
+  list-style-type: none;
+  text-decoration: none;
+    display: inline;
+
+}
+
