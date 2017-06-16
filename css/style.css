@@ -7,7 +7,7 @@ h1{
 }
 body {
   background: #3494E6;
-  background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);
+/*  background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);*/
   background: linear-gradient(to bottom, #EC6EAD, #3494E6); }
 
 
@@ -58,7 +58,9 @@ body{
     background: linear-gradient(to bottom, #EC6EAD, #3494E6); 
 
 }
-
+body{
+    color:white;
+}
 
 
 
@@ -81,7 +83,7 @@ section ul{
 
 ul {
   border: 2px solid #c0ffee;
-  padding: 3em; }
+  padding: 0px; }
 
 
 .image img {
