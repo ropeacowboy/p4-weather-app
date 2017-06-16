@@ -18,17 +18,18 @@ navigator.geolocation.getCurrentPosition(function(position){
 });
 
 $.simpleWeather({
-    location: 98244,
+    location: 'Miami',
     unit: 'f',
     success: function(weather) {
       // Entire weather object
       console.log(weather);
       
       // Display Data
-      $('.temp').text(weather.temp);
-      $('.city').text(weather.city);
-      $('img').attr('src', weather.image);
-      
+        $('.temp').text(weather.temp + '  F');
+        $('.city').text(weather.city);
+        $('.region').text(weather.region);
+        $('img').attr('src', weather.image);
+
     },
     error: function(error) {
       // Show if weather cannot be retreived
